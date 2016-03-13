@@ -1,22 +1,25 @@
-package com.example.findapp;
+package actividades;
+
+import com.example.findapp.R;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class ActividadLogin extends Activity {
+public class ActividadPrincipal extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.actividad_login);
+		setContentView(R.layout.actividad_principal);
 	}
+	
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.actividad_login, menu);
+		getMenuInflater().inflate(R.menu.actividad_principal, menu);
 		return true;
 	}
 

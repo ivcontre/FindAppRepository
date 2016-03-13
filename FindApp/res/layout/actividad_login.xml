@@ -46,7 +46,7 @@
 	    >
 
 		<EditText
-		    android:id="@+id/editText1"
+		    android:id="@+id/usuario"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
 		    android:layout_alignParentLeft="true"
@@ -62,7 +62,7 @@
 		</EditText>
 
 		<EditText
-		    android:id="@+id/editText2"
+		    android:id="@+id/password"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
 		    android:layout_alignParentLeft="true"
@@ -70,7 +70,7 @@
 		    android:hint="Password"
 		    android:alpha="1"
 		    android:textColor="#FFF"
-		    android:layout_below="@+id/editText1"
+		    android:layout_below="@+id/usuario"
 		    android:layout_marginTop="18dp"
 		    android:ems="10"
 		    android:inputType="textPassword" />
@@ -87,6 +87,7 @@
 		    android:textSize="20sp"
 		    android:textColor="#E6FFE6"
 		    android:background="@drawable/efecto_boton_login"
+		    android:onClick="validaUsuario"
 		    android:text="Login" />
 
 		<Button
