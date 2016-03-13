@@ -12,6 +12,7 @@ public class ActividadPrincipal extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.actividad_principal);
 	}
+	
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
